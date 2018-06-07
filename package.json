@@ -1,0 +1,32 @@
+{
+  "name": "jsmodule-17",
+  "version": "1.0.0",
+  "description": "module-17",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilcha/jsModule-17.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilcha/jsModule-17/issues"
+  },
+  "homepage": "https://github.com/bilcha/jsModule-17#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "lodash-template-webpack-loader": "^1.0.2",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2"
+  }
+}
